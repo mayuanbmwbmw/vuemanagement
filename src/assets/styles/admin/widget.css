@@ -1,0 +1,87 @@
+/*
+组件样式
+注意：用于覆盖element-ui的一些组件样式用于满足定制化需求
+*/
+
+@charset "utf-8";
+
+.line {
+	width: 100%;
+	height: 8px;
+	border-bottom:1px solid #E6E6E6;
+}
+
+
+.el-button--success {
+    color: #fff;
+    background-color: #26BF8C;
+    border-color: #26BF8C;
+}
+
+
+.el-button--success:focus, .el-button--success:hover {
+    background: #29cc96;
+    border-color: #29cc96;
+    color: #fff;
+}
+
+
+.el-table th{
+    background-color: #F8F8F8;
+    color: #666666;
+}
+
+
+.el-form-item__label{
+	font-weight: bold;
+}
+.el-message-box__header{
+    background-color: #f8f8f8;
+	padding-bottom: 20px;
+	height: 17px;
+}
+.el-message-box__header .el-message-box__title span{
+	color: #0099ff;
+	font-weight: bold;
+	font-size: 16px;
+}
+.el-message-box__header .el-message-box__headerbtn .el-message-box__close{
+    font-size: 18px;
+	font-weight: bold;
+	color: #1d1e21;
+}
+/*日期范围组件样式*/
+.date-range .el-date-editor .el-range-separator,.date-range .el-date-editor .el-range__icon{
+	line-height: 26px;
+}
+
+
+.payDuration .el-radio.is-bordered:nth-of-type(even){
+	min-width: 180px;
+    text-align: center;
+    border-radius: 20px;
+    border: 0;
+    background-color: #F8F8F8;
+    margin: 5px 0;
+
+}
+.payDuration .el-radio.is-bordered:nth-of-type(odd){
+	min-width: 180px;
+    text-align: center;
+    border-radius: 20px;
+    border: 0;
+    background-color: #F8F8F8;
+    margin: 5px 20px 5px 0;
+}
+
+.payDuration .el-radio.is-bordered.is-checked{
+	background-color: #0099FF;
+}
+
+.payDuration .el-radio__input.is-checked+.el-radio__label{
+	color:#FFF !important;
+}
+
+.payDuration .el-radio__input.is-checked .el-radio__inner{
+	border: 1px solid #dcdfe6;
+}

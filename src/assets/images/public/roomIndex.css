@@ -1,0 +1,317 @@
+body{
+    min-width: 1200px;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+#app,html{
+    height:100%;
+    width:100%;
+    overflow: auto;
+}
+.roomIndex{
+    background-color: #f5f6fa;
+    height: 100%;
+}
+.roomIndex .header{
+    width: 100%;
+    height: 70px;
+    background-color: #ffffff;
+}
+.roomIndex .header .header-center{
+    width: 1200px;
+    height: 100%;
+    margin: 0 auto;
+}
+.roomIndex .header .header-center .el-button {
+	margin-top: 15px;
+}
+.roomIndex .header .header-center>img{
+    margin-top: 12px; 
+    cursor: pointer;
+}
+.roomIndex .header .header-center .logined{
+	margin-left: 20px;
+	margin-top: 10px;
+	height: 44px;
+}
+.roomIndex .header .header-center .logined .el-dropdown{
+	color: #000000;
+	cursor: pointer;
+	width: 100%;
+	height: 100%;
+}
+.roomIndex .header .header-center .logined .el-dropdown .el-dropdown-link{
+	margin-left: 10px;
+	display: block;
+	float: right;
+	line-height: 44px;
+	width: 100%;
+	height: 100%;
+}
+.roomIndex .header .header-center .logined .el-dropdown .el-dropdown-link>span{
+	vertical-align: text-bottom;
+	margin-left: 10px;
+}
+
+.roomIndex .main{
+    width: 1200px;
+    height:auto;
+    margin: 20px auto;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    background-color: #ffffff;
+}
+.roomIndex .defaultnoLiving{
+    position: relative;
+    height: 600px;
+ }
+.roomIndex .defaultnoLiving>p{
+   text-align: center;
+   color: #999999;
+   font-size: 16px;
+}
+.roomIndex .defaultnoLiving>img{
+    margin: 0px auto;
+    padding-top: 120px;
+    display: block;
+ }
+.roomIndex .main .mian-header{
+    width: 100%;
+    height: 40px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #efefef;
+}
+.roomIndex .main .mian-header>span{
+    font-size: 24px;
+	font-weight: normal;
+	font-stretch: normal;
+	line-height: 24px;
+	letter-spacing: 0px;
+    color: #333333;
+    vertical-align: bottom;
+}
+.roomIndex .main .mian-header img{
+    vertical-align: bottom;
+}
+.roomIndex .main .mian-header .companyName{
+    font-size: 14px;
+    height: 25px;
+    margin-right: 10px;
+    background: #0099ff;
+    border-radius: 4px;
+    color: #ffffff;
+    padding: 5px 10px;
+}
+.roomIndex .main .mian-header .companyName .enterpriseName{
+    font-size: 18px;
+	font-weight: normal;
+	font-stretch: normal;
+	line-height: 25px;
+	letter-spacing: 0px;
+    vertical-align: bottom;
+}
+.roomIndex .main .mian-header .companyName .el-button{
+    border: none;
+    background: #0099ff;
+    color: #ffffff;
+    font-size: 14px;
+    height: 100%;
+}
+.roomIndex .main .mian-header .companyName .outCompany{
+    padding-right: 0px;
+}
+.roomIndex .main .roomList li{
+    width: 570px;
+    height: 330px;
+    display: inline-block;
+    overflow: hidden;
+    position: relative;
+    margin-bottom: 20px;
+    cursor: pointer;
+    background-color: #dbdbdb;
+    background-size: cover;
+    background-position: center;
+}
+.roomIndex .main .roomList li>img:first-child{
+    height: 100%;
+    display: block;
+}
+.roomIndex .main .roomList li>img:first-child.creatLiveRoom{
+    cursor: pointer;
+}
+.roomIndex .main .roomList li .living-icon{
+    width: 60px;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+}
+.roomIndex .main .roomList li .roomInfo{
+    width: 100%;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 60px;
+    padding: 10px 15px;
+    box-sizing: border-box;
+	background-color: rgba(0, 0, 0, 0.4);
+}
+.roomIndex .main .roomList li .roomInfo .title{
+    font-size: 17px;
+    color: #ffffff;
+    font-weight: bold;
+}
+.roomIndex .main .roomList li .roomInfo .name{
+    font-size: 13px;
+    margin-top: 8px;
+	color: #ffffff;
+}
+.roomIndex .main .roomList li .roomInfo .beginLiving{
+    width: 90px;
+	height: 40px;
+    background-color: #fbb034;
+    color: #ffffff;
+    border-radius: 4px;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    z-index: 1;
+    border: none;
+}
+.roomIndex .main .roomList li .roomInfo .endLiving{
+    width: 90px;
+	height: 40px;
+    background-color: #969696;
+    color: #ffffff;
+    border-radius: 4px;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    z-index: 1;
+    border: none;
+}
+.roomIndex .main .roomList li .roomInfo .beginLiving:hover{
+    background-color: #fbb034d6;
+}
+.roomIndex .main .roomList li .roomInfo .beginLiving span{
+    margin-left: -3px;
+}
+.roomIndex .main .roomList li .roomInfo .livingState{
+    position: absolute;
+    top: -265px;
+    right: 5px;
+}
+.roomIndex .footer{
+    min-width: 1200px;
+    width:100%;
+    background-color: #ffffff;
+    position: absolute;
+    bottom:0;
+}
+.roomIndex .footer p{
+    margin: 0 auto;
+    text-align: center;
+    font-size: 12px;
+	line-height: 24px;
+    color: #666666;
+    padding: 10px 0;
+}
+/* dialog窗口样式 */
+ .el-dialog__header{
+    background-color: #f8f8f8;
+}
+ .el-dialog__header .el-dialog__title{
+    color: #0099ff;
+    font-weight: bold;
+}
+.el-dialog__body{
+    padding: 20px;
+}
+ .feedbackIcon{
+    position: fixed;
+    right: 0px;
+    bottom: 90px;
+    cursor: pointer;
+}
+.feedback-box{
+    padding-bottom: 20px;
+    border-bottom: 1px solid #e6e6e6;
+}
+ .feedback-box>p:first-child{
+    font-size: 14px;
+    color: #666666;
+    margin-bottom: 10px;
+}
+ .feedback-box .drom-menu{
+    display: inline-block;
+    width: 170px;
+	height: 38px;
+    float: right;
+}
+ .feedback-box .drom-menu .el-dropdown{
+    color: #999999;
+    font-size: 14px;
+}
+ .feedback-box .captcha-box{
+    display: inline-block;
+    float: right;
+}
+ .feedback-box .tips-title{
+    font-size: 16px;
+    color: #666666;
+}
+.feedback-box .tips{
+    font-size: 14px;
+    color: #666666;
+    line-height: 24px;
+}
+/* .el-dialog__footer .el-button{
+    width: 80px;
+    height: 32px;
+    padding: 0;
+	border-radius: 4px;
+}*/
+.el-dialog__wrapper .s-canvas{
+    height: 40px;
+}
+.searchRow{
+    height: 60px;
+}
+.searchRow .el-input{
+    width: 380px;
+}
+.searchRow .el-button {
+    float: right;
+    width: 100px;
+}
+.operation{
+    cursor: pointer;
+}
+.operation.red:hover{
+   color: red;
+}
+.operation.red:focus {
+    color: red;
+ }
+.roomIndex .el-pagination{
+    margin-top:20px;
+}
+.operation.el-button{
+   border-color:transparent;
+   background:none;
+}
+.operation.el-button.is-disabled:hover{
+   border-color:transparent;
+   background:none;
+}
+.operation.el-button.is-disabled{
+    border-color:transparent;
+   background:none;
+}
+.roomIndex .main .mian-header>span.applyAdd{
+    font-size:16px;
+}
+.enterpriseTable.el-table td{
+    padding:0;
+}

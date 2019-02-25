@@ -1,0 +1,211 @@
+/*
+列表页通用样式
+注意：每行请以.list-page父级元素选择器
+*/
+
+@charset "utf-8";
+.list-page{
+	background-color: #F5F6FA;
+	border-radius: 5px;
+	min-height: 500px;
+}
+.list-page .list-title{
+	font-size: 16px;
+	font-weight: bold;
+	color: #808080;
+	height: 14px;
+	line-height: 38px;
+}
+
+.list-page .list-desc{
+	font-size: 12px;
+	color: #808080;
+	margin-left:20px;
+}
+.list-page .list-desc i{
+	color: #0099FF;
+	padding: 0 5px;
+	font-style: normal;
+}
+
+.list-page .list-operations{
+	float: right;
+	font-size: 14px;
+	color: #666;
+	height: 45px;
+}
+
+.list-page .list-operations i{
+	margin-right: 5px;
+}
+
+.list-page .list-operations span{
+	cursor: pointer;
+}
+
+
+.list-page .list-query-box{
+	margin: 5px 0;
+}
+.list-page .list-query-box .el-select,
+.list-page .list-query-box .el-input{
+	display: inline-block;
+	width: 280px;
+	line-height: 45px;
+	margin-right: 20px;
+}
+
+.list-page .list-query-box .buttons{
+	margin:4px 0px;
+	float: right;
+}
+
+.list-page .list-table{
+  margin-top: 22px;
+}
+.list-page .list-pagination{
+	background-color: #fff;
+	padding: 5px;
+}
+.list-page .list-query-box .el-input__inner{
+	height:32px;
+}
+
+.list-page .list-query-box .el-button--medium {
+    padding: 8px 20px;
+    font-size: 14px;
+    border-radius: 4px;
+}
+
+
+.list-page span.operation{
+	padding-right:20px;
+	font-size: 14px;
+	cursor: pointer;
+}
+
+.list-page span.operation i{
+	font-size: 14px
+}
+.list-page .el-button.batch-delate{
+	background-color: #756ed5;
+	border-color: #756ed5;
+}
+
+.list-page .icon-stopped{
+	display: inline-block;
+	padding-left: 25px;
+	width: 40px;
+	height: 22px;
+	line-height: 22px;
+	background: url(../../../assets/images/admin/icon-stopped.png) no-repeat left center;
+
+}
+
+.list-page .icon-occupied{
+	display: inline-block;
+	padding-left: 25px;
+	width: 40px;
+	height: 22px;
+	line-height: 22px;
+	background: url(../../../assets/images/admin/icon-occupied.png) no-repeat left center;
+	
+}
+
+.list-page .icon-usable{
+	display: inline-block;
+	padding-left: 25px;
+	width: 40px;
+	height: 22px;
+	line-height: 22px;
+	background: url(../../../assets/images/admin/icon-usable.png) no-repeat left center;
+
+	
+}
+.list-page .el-dialog__wrapper .el-dialog__header{
+	background-color: #f8f8f8;
+	padding-bottom: 20px;
+	height: 17px;
+}
+.list-page .el-dialog__wrapper .el-dialog__header .el-dialog__title {
+    color: #0099ff;
+	font-weight: bold;
+	font-size: 16px;
+}
+.list-page .el-dialog__wrapper .el-dialog__headerbtn .el-dialog__close{
+	font-size: 18px;
+	font-weight: bold;
+	color: #1d1e21;
+}
+.list-page .el-dialog__wrapper .el-form-item__content>p:first-child{
+	width: 80px;
+	float: left;
+	text-align: right;
+	font-size: 14px;
+	color: #666666;
+	font-weight: bold;
+}
+.list-page .el-dialog__wrapper .drom-menu .el-select{
+	width: 100%;
+}
+.list-page .el-dialog__wrapper .el-form-item__error{
+	/*left: 80px;*/
+}
+.list-page .import-upload .el-upload{
+	width: 100%
+}
+.list-page .import-upload .el-upload-list{
+	height: 60px;
+}
+.list-page .import-upload .el-upload .el-upload-dragger{
+	width: 100%
+}
+.el-upload-list__item.is-success .el-upload-list__item-status-label{
+	display: none;
+}
+.list-page .license-pic img{
+	width: 80px;
+	height: 80px;
+}
+.list-page .downloadMoudle{
+	color: #0099FF;
+	font-weight: bold;
+	display: inline-block;
+	float: right;
+	cursor: pointer;
+}
+
+.list-page .el-dialog__wrapper .message .order-detail{
+	border-radius: 5px;
+	background-color: #F8F8F8;
+	margin: 20px 0;
+	padding:20px;
+	color:#999999;
+}
+.list-page .el-dialog__wrapper .message h4{
+	font-size: 16px;
+}
+.list-page .el-dialog__wrapper .message p{
+	color:#999999;
+}
+.list-page .badge-item{
+	margin-right: 10px;
+}
+.list-page .el-badge__content.is-fixed{
+	right: 18px;
+}
+
+.list-page .renewal{
+	cursor: pointer;
+}
+.emailInput{
+	width: 60%;
+	height: 38px;
+	border: 1px solid #cccccc;
+	border-radius: 4px;
+	/* -webkit-appearance: none; */
+	outline: 0;
+}
+.emailInput:focus{
+	border: 1px solid #2092FC;
+}

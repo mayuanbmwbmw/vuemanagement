@@ -1,0 +1,66 @@
+/*
+工具样式
+*/
+
+@charset "utf-8";
+
+ul,li{
+	list-style: none;
+}
+.clearfix{
+	clear:both !important;
+}
+.none{
+	display: none;
+}
+.block{
+	display: block;
+}
+.wp-100{
+	width:100% !important;
+}
+.w170{
+	width: 170px;
+}
+.w306{
+	width: 306px;
+}
+.w390{
+	width: 390px;
+}
+
+.w375{
+	width: 375px;
+}
+
+.fr{
+	float: right;
+}
+
+.fl{
+	float: left;
+}
+
+.red{
+	color: #FF0B00
+}
+
+.blue{
+	color: #0099FF
+}
+ul,li,p,h1,h2,h3,h4,h5{
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+.clear:after{
+    content: '';
+    display: block;
+    clear: both;
+}
+.clear{
+    zoom:1;
+}
+.center{
+	text-align: center;
+}

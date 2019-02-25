@@ -1,0 +1,46 @@
+/*
+其他页面通用样式
+注意：
+1.区别于列表页、通用编辑页和查看页面的页面样式都写在这
+2.每个页面的容器单独定义class,用于区分页面
+*/
+
+@charset "utf-8";
+/*统计模块 start*/
+.echarts-title{
+	font-size: 16px;
+	font-weight: bold;
+	color: #808080;
+	margin-top: 35px;
+	margin-bottom: 20px;
+	float:left;
+}
+.echarts-selectItem{
+	float: right;
+	/*margin-top: 35px;
+	margin-bottom: 20px;*/
+	color: #808080;
+	height: 73px;
+}
+.echarts-selectItem span.down{
+	color:#0099FF;
+	border-bottom: 2px solid #0099ff;
+}
+.echarts-graphics-wrapper{
+	width: 100%;
+	height: 300px;
+}
+
+.echarts-selectItem .textItem{
+	height: 38px;
+	margin-top: 35px;
+	display: inline-block;	
+	margin-right: 35px;
+	cursor: pointer;
+}
+.echarts-items-line{
+	width: 100%;
+    border-bottom: 1px solid #E6E6E6;
+}
+
+/*统计模块 end*/

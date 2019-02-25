@@ -1,0 +1,80 @@
+/*
+查看页通用样式
+注意：每行请以.view-page父级元素选择器
+*/
+
+
+@charset "utf-8";
+
+.view-page{
+	background-color: #F5F6FA;
+	border-radius: 5px;
+	min-height: 500px;
+}
+.view-page .view-title{
+	font-size: 16px;
+	font-weight: bold;
+	color: #808080;
+	height: 14px;
+	line-height: 38px;
+}
+
+
+.view-page .view-content{	
+	margin:15px;
+}
+.view-page .view-buttons{
+	float: right;
+	margin-bottom: 20px;
+}
+.view-page .view-content .item{
+	color: #666666;
+	font-weight: bold;
+}
+.view-page .view-content .item>label{
+	display: inline-block;
+	min-height: 50px;
+	font-size: 14px;
+	width:150px;
+	text-align: right;
+}
+.view-page .view-content .item>span{
+	font-size: 14px;
+	color:#444;
+	margin-left: 20px;
+}
+
+.view-page .view-content .item>span img{
+	max-width: 400px;
+}
+
+
+.view-page .view-content{
+	margin-top:40px;
+}
+.view-page .view-content.reply .item{
+	border-bottom: 1px solid #f5f5f5;
+	padding-bottom: 20px;
+}	
+.view-page .view-content.reply .item span{
+	color:#999;
+	font-size: 14px;
+}
+.view-page .view-content.reply .item .reply-content{
+	font-size: 14px;
+	color:#666;
+	padding: 20px 0 0 20px;
+}
+.view-page.cooperation .view-content .item{
+	padding:10px 0 20px 0;
+}
+.view-page.cooperation .view-content .item span{
+	font-size: 12px;
+    color: #999;
+    margin-left:0;
+}
+.view-page.cooperation .view-content .item div{
+	color:#6c6c6;
+	font-size: 14px;
+	margin-top: 10px;
+}

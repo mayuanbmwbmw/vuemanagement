@@ -1,0 +1,158 @@
+.functionPage .header{
+	height: 81px;
+	width: 100%;
+	background-color: #0099FF;
+	position: fixed;
+}
+
+.functionPage .header .logo{
+	background: url(../../../assets/images/public/logo2.png) no-repeat;
+	width: 1200px;
+	height: 56px;
+	margin:0 auto;
+	margin-top: 10px;
+}
+
+.functionPage .header .logo span{
+	float: right;
+	line-height: 65px;
+	font-size: 20px;
+	color: #ffffff;
+	font-weight: bold;
+}
+
+.functionPage .main-content{
+	width: 1200px;
+	margin:0 auto;
+	padding-top: 110px;
+}
+
+.functionPage .main-content.download{
+	width: 570px;
+	height: 486px;
+	margin: 0 auto;
+}
+.functionPage .main-content.download h1{
+ text-align: center;
+ line-height: 40px;
+}
+.functionPage .main-content.download .fl{
+	width: 240px;
+ }
+.functionPage .main-content.download .border-wrapper{
+	width: 240px;
+	height: 240px;
+	border: 1px solid #666666;
+	border-radius: 15px;
+	margin: 40px 0;
+ }
+ .functionPage .main-content.download .border-wrapper:hover{
+	box-shadow: 0 0 10px 2px #4d4d4d
+ }
+ .functionPage .main-content.download .border-wrapper>div{
+	width: 154px;
+	height: 154px;
+	margin: 43px;
+	position: relative;
+ }
+ .functionPage .main-content.download .border-wrapper>div img{
+	position: absolute;
+	left: 0;
+	top: 0;
+	z-index: -1;
+ }
+ .functionPage .main-content.download .border-wrapper>div img.erweima{
+	z-index: 0;
+	width: 100%;
+ }
+ .functionPage .main-content.download .title{
+	text-align: center;
+	font-size: 18px;
+	line-height: 30px;
+}
+.functionPage .main-content.download .title.side{
+	color: #333333;
+	font-size: 20px;
+}
+.functionPage .main-content.us{
+	padding-top: 175px;
+}
+.functionPage .main-content .fl{
+	width: 400px;
+}
+.functionPage .main-content p{
+	font-size: 14px;
+	color: #4D4D4D;
+	line-height: 25px;
+	text-indent:25px;
+}
+
+.functionPage .main-content p.p1{
+	font-size: 24px;
+	line-height: 28px;
+	font-weight: bold;
+	color: #333333;
+	text-indent:0;
+}
+
+.functionPage .main-content span.num{
+	font-size: 18px;
+	line-height: 24px;
+	font-weight: bold;
+	color: #0099ff;
+	text-indent:0;
+}
+.functionPage .main-content p.p2.tel{
+	color: #333333;
+}
+.functionPage .main-content p.p2{
+	font-size: 18px;
+	line-height: 24px;
+	font-weight: bold;
+	color: #4d4d4d;
+	text-indent:0;
+	margin-top: 20px;
+}
+
+.functionPage .main-content p.p3{
+	font-size: 16px;
+	text-indent:0;
+}
+
+.functionPage .main-content h1{
+	font-size: 24px;
+	color: #4D4D4D;
+	font-weight: bold;
+	line-height: 25px;
+	margin: 10px 0px 30px 0px;
+}
+
+.functionPage .main-content h2{
+	font-size: 16px;
+	color: #4D4D4D;
+	font-weight: bold;
+	line-height: 25px;
+	margin: 10px 0px;
+}
+
+.functionPage .main-content h3{
+	font-size: 14px;
+	color: #4D4D4D;
+	font-weight: bold;
+	line-height: 25px;
+	margin: 10px 0px;
+}
+
+
+
+.functionPage .footer{
+	color: #4D4D4D;
+	text-align: center;
+	font-size: 14px;
+	bottom: 50px;
+	width: 1200px;
+	margin:0 auto;
+	margin-top: 200px;
+	margin-bottom: 30px;
+
+}
